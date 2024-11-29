@@ -5,3 +5,4 @@ def about(req):
 
 def home(req):
     return render(req, "index.html")
+

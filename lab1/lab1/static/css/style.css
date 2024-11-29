@@ -5,12 +5,59 @@
 }
 
 body{
-    margin: auto;
+    
     font-size: 3rem;
     background-color: rgb(80, 74, 74);
-    color: rgb(231, 226, 226);
+    color: rgb(231, 226, 226); 
+    min-height: 100vh;
+
 
 }
 h1{
     text-align: center;
+    margin-top: 20px;
+}
+
+main {
+    flex-grow: 1;
+    display: grid;
+    place-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #81dbb8;
+}
+
+a:hover {
+    opacity: .85;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    background-color: rgb(51, 48, 48);
+    width: auto;
+}
+ul{
+    list-style: none;
+}
+
+nav li{
+    display: flex;
+    margin-right: 10px;
+}
+nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: rgb(224, 220, 220);
+    font-size:20px;
+    padding: 0;
+}
+nav a:hover{
+    background-color: rgb(133, 123, 123);
 }
