@@ -5,23 +5,22 @@
 }
 
 body{
-    
-    font-size: 3rem;
     background-color: rgb(80, 74, 74);
     color: rgb(231, 226, 226); 
     min-height: 100vh;
-
-
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1{
     text-align: center;
     margin-top: 20px;
+    padding-bottom: 25px;
 }
 
 main {
-    flex-grow: 1;
-    display: grid;
-    place-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 25px;
 }
 
 a {
@@ -53,11 +52,22 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    color: rgb(224, 220, 220);
-    font-size:20px;
     padding: 0;
 }
 nav a:hover{
     background-color: rgb(133, 123, 123);
+}
+
+p.post__body {
+    white-space: pre-line;
+    text-align: justify; 
+}
+
+h2{
+    text-align: center;
+    padding-top: 80px;
+}
+
+p{
+    text-align: center;
 }
