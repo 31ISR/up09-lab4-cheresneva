@@ -6,7 +6,6 @@
 
 body{
     background-color: rgb(80, 74, 74);
-    color: rgb(231, 226, 226); 
     min-height: 100vh;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -62,13 +61,17 @@ p.post__body {
     white-space: pre-line;
     text-align: justify; 
 }
-
+h1{
+    color: #81dbb8;
+}
 h2{
+    color: rgb(255, 255, 255);
     text-align: center;
     padding-top: 80px;
 }
 
 p{
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -82,4 +85,45 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.butlogout{
+    border: 0ch;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #81dbb8;
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.autorcolor{
+    color: #81dbb8;
+}
+
+.zagol{
+    color: #81dbb8;
+}
+.form-submit{
+    border: 0ch;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #81dbb8;
+    height: 40px;
+    width: 230px;
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.form-with-validation{
+    width: 60px;
+    top: 100%;
+    left: 100%;
+    transform: translate(1100%, 10%);
+    
 }
