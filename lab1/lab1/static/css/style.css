@@ -10,6 +10,7 @@ body{
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 h1{
     text-align: center;
     margin-top: 20px;
@@ -121,9 +122,23 @@ p{
 }
 
 .form-with-validation{
-    width: 60px;
-    top: 100%;
-    left: 100%;
-    transform: translate(1100%, 10%);
-    
+    /* width: 60px; */
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.form-with-validation2{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.form-with-validation > div {
+    display: flex;
+    flex-direction: column;
 }

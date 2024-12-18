@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/5.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
-import os 
 from pathlib import Path
 
 
@@ -72,7 +71,15 @@ TEMPLATES = [
     },
 ]
 STATICFILES_DIRS =[
-    os.path.join(BASE_DIR, 'static')
+    STATIC_URL = 'static/'
+    MEDIA_URL = 'media/'
+
+    STATIC_ROOT = BASE_DIR / 'assets'
+    MEDIA_ROOT = BASE_DIR / 'media'
+
+    STATICFILES_DIRS = [
+        BASE_DIR / 'static'
+]
 ]
 
 
@@ -134,6 +141,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = 'media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR)
+
+DEBUG = False
+
+ALLOWED_HOSTS = ["localhost","127.0.0.1"]
 
 
 
